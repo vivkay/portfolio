@@ -1,3 +1,49 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+	 html {
+		 
+		 font-size: 110%;
+	 }
+}
+	
+@media only screen and (min-width: 90em) {
+	 html {
+		 
+		 font-size: 120%;
+	 }
+}
+	
+@media only screen and (min-width: 120em) {
+	 html {
+		 
+		 font-size: 130%;
+	 }
+}
+		
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .icon-portfolio {
     background-image: url(../images/test.png);
     background-repeat: no-repeat;
@@ -45,3 +91,69 @@
     background-image: url(../images/gif-test.gif);
     background-repeat: no-repeat;
 }
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/billboard-2.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.skip-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}	
+
+.skip-links a {
+	position: absolute;
+	top: -3em;
+	padding: 0.5em 0.75em;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.skip-links a:focus {
+	top: 0;
+}
+
+.button-outline{
+    border: 2px solid white;
+    border-radius: 8px 8px 8px 8px;
+    font-size:12px;
+    font-family: "montserrat" sans-serif;
+    font-size: 1.5em;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none; 
+    font-weight:lighter; 
+    color: #FFFFFF;
+    background-color: transparent; 
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+}
+
+.button-outline:hover{
+    cursor: pointer;
+    border:2px solid yellow; 
+    background-color: transparent;
+    color: #FF6262;
+}
+
+.white {
+    color: white;
+}
+
+.shadow {
+   text-shadow: 1px 1px 0 black;
+}
+
+.center {
+    text-align: center;
+    margin: 0, auto;
+}
+
