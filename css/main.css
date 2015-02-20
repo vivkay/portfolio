@@ -58,7 +58,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: red;
     overflow: hidden;
     width: 100%;
-    height: 15em;
+    height: 10em;
     display: inline-block;
 }
 
@@ -74,7 +74,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: red;
     overflow: hidden;
     width: 100%;
-    height: 15em;
+    height: 10em;
     display: inline-block;
 }
 
@@ -90,7 +90,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: red;
     overflow: hidden;
     width: 100%;
-    height: 15em;
+    height: 10em;
     display: inline-block;
 }
 
@@ -101,11 +101,10 @@ font-family: 'Montserrat', sans-serif;
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/billboard-2.jpg);
-    background-color: black;
+    background-image: url(../images/billboard-web.jpg);
+    background-color: #151866;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
 }
 
 .skip-links {
@@ -202,8 +201,45 @@ font-family: 'Montserrat', sans-serif;
 .nav-top a:link,
 .nav-top a:visited {
 	display: block;
-	font-size: 1rem;
+	font-size: .75rem;
     padding: .5rem 5%;
 	color: white;
 	text-decoration: none;
+}
+
+.charcoal {
+    color: #383A4C;
+}
+
+.portfolio-buckets {
+    overflow: hidden;
+    width: 100%;
+}
+
+.portfolio-bucket-1 {
+    background-image: url(../images/pf-test-2.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: red;
+    background-position: center center;
+    background-size: cover;
+}
+
+.grid-tint {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    display: block;
+    transition: all 0.3s ease-in;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: initial;
+    left: 0%;
+    top: 0%;
+}
+
+grey {
+    background-color: grey;
 }
