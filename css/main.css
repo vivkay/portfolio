@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     color: red;
     background-color: red;
+    overflow: hidden;
 }
 
 .hover-test:hover {
@@ -10,3 +11,4 @@
     background-repeat: no-repeat;
 
 }
+
