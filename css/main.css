@@ -1,9 +1,12 @@
 .hover-test {
     background-image: url(../images/test.png);
     background-repeat: no-repeat;
+    color: red;
+    background-color: red;
 }
 
 .hover-test:hover {
     background-image: url(../images/test2.gif);
     background-repeat: no-repeat;
+
 }
