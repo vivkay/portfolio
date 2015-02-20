@@ -1,14 +1,47 @@
-.hover-test {
+.icon-portfolio {
     background-image: url(../images/test.png);
     background-repeat: no-repeat;
     color: red;
     background-color: red;
     overflow: hidden;
+    width: 100%;
+    height: 15em;
+    display: inline-block;
 }
 
-.hover-test:hover {
-    background-image: url(../images/test2.gif);
+.icon-portfolio:hover {
+    background-image: url(../images/gif-test.gif);
     background-repeat: no-repeat;
-
 }
 
+.icon-blog {
+    background-image: url(../images/test.png);
+    background-repeat: no-repeat;
+    color: red;
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+    height: 15em;
+    display: inline-block;
+}
+
+.icon-blog:hover {
+    background-image: url(../images/gif-test.gif);
+    background-repeat: no-repeat;
+}
+
+.icon-cv {
+    background-image: url(../images/test.png);
+    background-repeat: no-repeat;
+    color: red;
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+    height: 15em;
+    display: inline-block;
+}
+
+.icon-cv:hover {
+    background-image: url(../images/gif-test.gif);
+    background-repeat: no-repeat;
+}
