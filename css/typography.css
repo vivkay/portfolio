@@ -4,7 +4,7 @@
 /**Is this right for the type? I changed it a few times...**/
 
 html {
-  font: normal 100%/1.5 'Source Sans Pro', sans-serif;
+  font: normal 100%/1.5 'Montserrat', sans-serif;
 }
 
 
@@ -222,16 +222,6 @@ sub {
   padding: 3.0000rem;
 }
 
-/* test
-.island-double-top, .island-2-t {
-    padding-top: 6.0000rem;
-    padding-right: 3.0000rem;
-    padding-bottom: 3.0000rem;
-    padding-left: 5.0000rem;
-}
-
-*/
-
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -249,11 +239,11 @@ sub {
 
 h1, h2, h3, h4, h5, h6, 
 .brand-family {
-font-family: "source sans pro", sans-serif;
+font-family: "montserrat", sans-serif;
 }
 
 .default-family {
-  font-family: "source sans pro", sans-serif;
+  font-family: "montserrat", sans-serif;
 }
   
 .bold {
@@ -266,17 +256,4 @@ font-family: "source sans pro", sans-serif;
 
 .italic {
   font-style: italic;
-}
-
-.type-200 {
-    font-family: "source sans pro", sans-serif;
-    font-weight: 200;   
-}
-
-
-@media only screen and (min-width: 38em) {
-    .yotta2 {
-      font-size: 3.5832rem;
-      line-height: 1.1;
-    }
 }

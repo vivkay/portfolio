@@ -7,6 +7,7 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/color.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -16,34 +17,65 @@
 		<li><a href="#navigation">Jump to navigation</a></li>
 	</ul>   
     
-    <header role="banner" class="grid billboard">
+    <header class="masthead">
+        <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+        <nav class="nav-top">	
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island">
+    <header role="banner" class="grid billboard">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island-2">
             <img src="images/name-play.svg" alt="Vivienne Kay" class="pad-t-2">
-            <p class="white center shadow" >Graphic Design Student, Wordsmith, UX/UI/Motion Dreamer, Internship Hunter</p>
+            <p class="white center shadow" >Graphic Design Student, Wordsmith, UX/UI/Motion Nerd, Internship Hunter</p>
             
         </div>
-        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1 unit-l-1 pad-t pad-b-2 center">
+        <div class="unit unit-xs-1-1 unit-s-1-1 unit-m-1 unit-l-1 pad-t pad-b-2 center">
                 <a href="contact.html" class="button-outline">Hire&nbsp;Me!</a>
         </div>
     </header>
     
-    <main role="main" class="grid">
+    <main role="main">
         
-        <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 icon-portfolio">
-            <p>testing with content</p>
-        </div>
-        
-        <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 icon-blog">
-            <p>testing with content</p>
-        </div>
-        
-        <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 icon-cv">
-            <p>testing with content</p>
-        </div>
-        
+        <div class="grid">
+            <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 icon-portfolio">
+                <p>testing with content</p>
+            </div>
+            <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 icon-blog">
+                <p>testing with content</p>
+            </div>
+            <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 icon-cv">
+                <p>testing with content</p>
+            </div>
 		</div>
+        
+        <div class="grid island">
+            <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 box-1">
+                <p>box1</p>
+            </div>
+            <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 box-2">
+                <p>box2</p>
+            </div>
+            <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 box-3">
+                <p>box3</p>
+            </div>
+		</div>
+   
+    
+    </main>
     
 
     
+    <footer class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1"> 
+            <p>Vivienne Kay © 2015</p>
+        </div>
+        <script src="js/toggle.js"></script>
+    </footer>
+    
 </body>
+</html>
