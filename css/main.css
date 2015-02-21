@@ -241,6 +241,7 @@ font-family: 'Montserrat', sans-serif;
     top: 0%;
 }
 
-grey {
-    background-color: grey;
+sm-icon {
+    width: 10px;
+    height: 10px;
 }
