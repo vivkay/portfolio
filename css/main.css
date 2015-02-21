@@ -52,9 +52,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .icon-portfolio {
-    background-image: url(../images/test.png);
+    background-image: url(../images/letter-icon.svg);
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: transparent;
     overflow: hidden;
     width: 100%;
     background-size: 100%;
@@ -63,7 +63,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .icon-portfolio:hover {
-    background-image: url(../images/gif-test.gif);
+    background-image: url(../images/contact.gif);
     background-repeat: no-repeat;
 }
 
