@@ -161,6 +161,11 @@ sub {
     margin-right: 3rem;
 }
 
+.push-l-r {
+    margin left: 1.5rem;
+    margin right: 1.5rem;
+}
+
 .push {
   margin-bottom: 1.5rem;
 }
@@ -210,6 +215,14 @@ sub {
     padding-left: 1.25rem;
 }
 
+.pad-r {
+    padding-right: 1.25rem;
+}
+
+.pad-l {
+    padding-left: 1.25rem;
+}
+
 .island {
   padding: 1.5rem;
 }
@@ -224,6 +237,11 @@ sub {
 
 .island-generous, island-giant, .island-g {
     padding: 5.0000rem;
+}
+
+.pad-l-r-g {
+    padding-right: 5.0000rem;
+    padding-left: 5.0000rem;
 }
 
 .gutter {

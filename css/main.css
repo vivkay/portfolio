@@ -63,6 +63,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .icon-portfolio:hover {
+    background-size: 100%;
     background-image: url(../images/contact.gif);
     background-repeat: no-repeat;
 }
@@ -309,8 +310,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .icons {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .icons:hover {
@@ -342,6 +343,22 @@ font-family: 'Montserrat', sans-serif;
 
 .lavendar {
     background-color: #CDCDE0;
+}
+
+.lavendar-text {
+    color: #CDCDE0;
+}
+
+.purple-text {
+    color: #222373;
+}
+
+.purple {
+    background-color: #222373;
+}
+
+.inline {
+    display: inline;
 }
 
 /*
