@@ -164,7 +164,7 @@ a {
     text-decoration: none; 
     font-weight:lighter; 
     color: #222373;
-    background-color: transparent; 
+    background-color: white; 
     text-align: center;
     margin-bottom: 0;
 }
@@ -172,8 +172,8 @@ a {
 .button-dark-outline:hover{
     cursor: pointer;
     border:2px solid #CDCDE0; 
-    background-color: transparent;
-    color: #CDCDE0;
+    background-color: #CDCDE0;
+    color: #222373;
     text-decoration: none;
 }
 
@@ -399,52 +399,6 @@ a {
     display: inline;
 }
 
-/*
-
-.jupiter {
-    width: 400px;
-    margin: 0, auto;
-    display: block;
+.stripes {
+    background-image: url(../images/stripe-lavendar.png);
 }
-
-.hover-box {
-    display: block;
-    overflow: hidden;
-    position: relative;
-}
-
-.hover-box img {
-    display: block;
-    width: 100%; 
-}
-
-.hover-box h2 {
-    position: absolute;
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    background-color: rgba(118, 140, 170, 0.5);
-    margin: 0;
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-    transition: all 200ms ease-out;
-}
-
-.hover-box:hover h2 {
-    opacity: 0;
-    -webkit-animation: appear 1s ease-in-out;
-    animation: appear 2s ease-in-out;
-    -webkit-animation-delay: .5s;
-    animation-delay:.5s;  
-}
-
-.hover-box span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-*/
