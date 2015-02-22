@@ -402,3 +402,15 @@ a {
 .stripes {
     background-image: url(../images/stripe-lavendar.png);
 }
+
+.stripe2 {
+    background-image: url(../images/stripe-2.png);
+}
+
+.stripe3 {
+    background-image: url(../images/stripe3.png);
+}
+
+.border-top {
+    border-top: 1px solid #CDCDE0;
+}
