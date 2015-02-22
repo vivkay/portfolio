@@ -166,6 +166,7 @@ a {
     color: #222373;
     background-color: transparent; 
     text-align: center;
+    margin-bottom: 0;
 }
 
 .button-dark-outline:hover{
