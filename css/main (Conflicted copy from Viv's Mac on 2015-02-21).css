@@ -281,13 +281,15 @@ font-family: 'Montserrat', sans-serif;
 
 .portfolio-text:hover{
     opacity: 100;
-    -webkit-animation: disappear 1s ease-in-out;
-    animation: disappear 2s ease-in-out;
+    -webkit-animation: disappear .5s linear forwards;
+    animation: disappear .5s linear forwards;
+    -webkit-animation-delay: .5s;
+    animation-delay:.5s; 
 }
 
 @-webkit-keyframes disappear {
     
-    20% {
+    0% {
         opacity: 100;
         -webkit-transform: rotate(10);
     }
@@ -299,7 +301,7 @@ font-family: 'Montserrat', sans-serif;
 
 @keyframes disappear {
     
-    20% {
+    0% {
         opacity: 100;
         transform: rotate(10);
     }
