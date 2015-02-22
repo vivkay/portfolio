@@ -133,7 +133,6 @@ font-family: 'Montserrat', sans-serif;
 .button-outline{
     border: 2px solid white;
     border-radius: 8px 8px 8px 8px;
-    font-size:12px;
     font-family: "montserrat" sans-serif;
     font-size: 1.5em;
     padding: 8px 14px 8px 14px;
@@ -152,6 +151,26 @@ font-family: 'Montserrat', sans-serif;
     color: #FF6262;
 }
 
+
+.button-contact{
+    border: 2px solid #222373;
+    border-radius: 8px 8px 8px 8px;
+    font-family: "montserrat" sans-serif;
+    font-size: 1em;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none; 
+    font-weight:lighter; 
+    color: #222373;
+    background-color: transparent; 
+    text-align: center;
+}
+
+.button-contact:hover{
+    cursor: pointer;
+    border:2px solid #CDCDE0; 
+    background-color: transparent;
+    color: #CDCDE0;
+}
 
 
 .white {
