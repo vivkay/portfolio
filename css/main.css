@@ -264,37 +264,18 @@ font-family: 'Montserrat', sans-serif;
     opacity: 1;
 }
 
-.button-portfolio{
-    border: 2px solid white;
-    border-radius: 8px 8px 8px 8px;
-    font-size: 1em;
-    font-family: "montserrat" sans-serif;
-    text-decoration: none; 
-    font-weight:lighter; 
-    color: #FFFFFF;
-    background-color: transparent; 
-    text-align: center;
+.portfolio-parent {
+    position: relative;
+}
+
+.portfolio-text {
     position: absolute;
-    top: -50px;
-    right: -500px;
-    left: 10px;
-    bottom: 10px;
-    padding: 0;
-    margin: 0;
+    top: 65%;
+    width: 60%;
+    color: white;
+    font-size: .9em;
+    font-weight: 400;
 }
-
-.button-portfolio:hover{
-    cursor: pointer; 
-    opacity: 0;
-}
-
-.button-portfolio span {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: translate(-30%, -30%);   
-}
-
 
 .appear {
     opacity: 0;
