@@ -273,6 +273,10 @@ a {
     opacity: 1;
 }
 
+.portfolio-parent:hover .portfolio-text {
+    opacity: 0;
+}
+
 .portfolio-parent {
     position: relative;
 }
@@ -291,7 +295,7 @@ a {
 .portfolio-text:hover{
     opacity: 1;
     -webkit-animation: disappear 1s ease-in-out;
-    animation: disappear 2s ease-in-out;
+    animation: disappear 1s ease-in-out;
 }
 
 @-webkit-keyframes disappear {
