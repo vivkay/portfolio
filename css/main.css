@@ -188,7 +188,6 @@ a {
 
 .center {
     text-align: center;
-    margin: 0, auto;
 }
 
 .nav-btn,
@@ -311,7 +310,6 @@ a {
     
     20% {
         opacity: 1;
-        transform: rotate(10);
     }
     
     100% {
@@ -331,7 +329,6 @@ a {
     
     20% {
         opacity: 0;
-        -webkit-transform: rotate(10);
     }
     
     100% {
@@ -343,7 +340,6 @@ a {
     
     20% {
         opacity: 0;
-        transform: rotate(10);
     }
     
     100% {
@@ -357,7 +353,7 @@ a {
 }
 
 .icons:hover {
-        -webkit-animation: pulse 1.5s ease-in-out forwards;
+    -webkit-animation: pulse 1.5s ease-in-out forwards;
     animation: pulse 1.5s ease-in-out forwards;
 }
 
