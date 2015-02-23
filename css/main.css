@@ -57,14 +57,14 @@ font-family: 'Montserrat', sans-serif;
     background-color: transparent;
     overflow: hidden;
     width: 100%;
-    background-size: 100%;
-    height: 10em;
+    background-size: 50%;
+    height: 150px;
     display: inline-block;
 }
 
 .icon-portfolio:hover {
-    background-size: 100%;
-    background-image: url(../images/contact.gif);
+    background-size: 50%;
+    background-image: url(../images/colorpop2.gif);
     background-repeat: no-repeat;
 }
 
@@ -84,10 +84,10 @@ font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
 }
 
-.icon-cv {
-    background-image: url(../images/test.png);
+.icon-contact {
+    background-image: url(../images/letter-icon.svg);
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: transparent;
     overflow: hidden;
     width: 100%;
     background-size: 100%;
@@ -95,8 +95,8 @@ font-family: 'Montserrat', sans-serif;
     display: inline-block;
 }
 
-.icon-cv:hover {
-    background-image: url(../images/gif-test.gif);
+.icon-contact:hover {
+    background-image: url(../images/contact.gif);
     background-repeat: no-repeat;
 }
 
