@@ -229,10 +229,15 @@ a {
 .nav-top a:link,
 .nav-top a:visited {
 	display: block;
-	font-size: .75rem;
+	font-size: 1rem;
     padding: .5rem 5%;
 	color: white;
 	text-decoration: none;
+    display: inline;
+}
+
+.nav-top li {
+    display: inline;
 }
 
 .charcoal {
@@ -357,6 +362,16 @@ a {
     animation: pulse 1.5s ease-in-out forwards;
 }
 
+.top-icons {
+    width: 45px;
+    height: 45px;
+}
+
+.top-icons:hover {
+        -webkit-animation: pulse 1.5s ease-in-out forwards;
+    animation: pulse 1.5s ease-in-out forwards;
+}
+
 @-webkit-keyframes pulse {
     0% {
         transform: scale(1, 1);
@@ -409,6 +424,14 @@ a {
 
 .stripe3 {
     background-image: url(../images/stripe3.png);
+}
+
+.stripe4 {
+    background-image: url(../images/stripe4.png);
+}
+
+.stripe5 {
+    background-image: url(../images/stripe5.png);
 }
 
 .border-top {
