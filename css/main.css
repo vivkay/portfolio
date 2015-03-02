@@ -84,6 +84,8 @@ font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
 }
 
+
+
 .icon-contact {
     background-image: url(../images/letter-icon.svg);
     background-repeat: no-repeat;
@@ -102,11 +104,11 @@ font-family: 'Montserrat', sans-serif;
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/billboard-web.jpg);
-    background-color: #151866;
+    background-image: url(../images/minigolf-2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    padding: 2em;
 }
 
 .skip-links {
@@ -146,9 +148,9 @@ font-family: 'Montserrat', sans-serif;
 
 .button-outline:hover{
     cursor: pointer;
-    border:2px solid yellow; 
+    border:2px solid white; 
     background-color: transparent;
-    color: #FF6262;
+    color: #a19f9f;
 }
 
 a {
@@ -156,14 +158,14 @@ a {
 }
 
 .button-dark-outline{
-    border: 2px solid #222373;
+    border: 2px solid #383A4C;
     border-radius: 8px 8px 8px 8px;
     font-family: "montserrat" sans-serif;
     font-size: 1em;
     padding: 8px 14px 8px 14px;
     text-decoration: none; 
     font-weight:lighter; 
-    color: #222373;
+    color: #383A4C;
     background-color: white; 
     text-align: center;
     margin-bottom: 0;
@@ -171,9 +173,8 @@ a {
 
 .button-dark-outline:hover{
     cursor: pointer;
-    border:2px solid #CDCDE0; 
-    background-color: #CDCDE0;
-    color: #222373;
+    border:2px solid #a19f9f;
+    color: #a19f9f;
     text-decoration: none;
 }
 
@@ -248,17 +249,9 @@ a {
     width: 100%;
 }
 
-.portfolio-bucket-1 {
-    background-image: url(../images/pf-test-2.jpg);
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-color: red;
-    background-position: center center;
-    background-size: cover;
-}
-
 .portfolio-tint {
     opacity: 0.5;
+    background-color: rgba (0,0,0,1);
     transition: all 0.3s ease-in;
     transition-property: all;
     transition-duration: 0.3s;
@@ -286,7 +279,7 @@ a {
     top: 65%;
     width: 70%;
     color: white;
-    background-color: rgba(35, 35, 111, .75);
+    background-color: rgba(0, 0, 0, .65);
     border-radius: 0px 8px 8px 0px;
     font-size: .9em;
     font-weight: 400;
@@ -393,20 +386,20 @@ a {
     }
 }
 
-.lavendar {
-    background-color: #CDCDE0;
+.steel {
+    color: #a19f9f;
 }
 
-.lavendar-text {
-    color: #CDCDE0;
+.charcoal {
+    color: #434242;
 }
 
-.purple-text {
-    color: #222373;
+.texture {
+    background-image: url(../images/texture.jpg)
 }
 
-.purple {
-    background-color: #222373;
+.black {
+    background-color: black;
 }
 
 .inline {
