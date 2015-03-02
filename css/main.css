@@ -140,7 +140,7 @@ font-family: 'Montserrat', sans-serif;
     padding: 8px 14px 8px 14px;
     text-decoration: none; 
     font-weight:lighter; 
-    color: #FFFFFF;
+    color: #a19f9f;
     background-color: transparent; 
     text-align: center;
     text-shadow: 1px 1px 0 black;
@@ -150,7 +150,7 @@ font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     border:2px solid white; 
     background-color: transparent;
-    color: #a19f9f;
+    color: white;
 }
 
 a {
@@ -406,24 +406,12 @@ a {
     display: inline;
 }
 
-.stripes {
-    background-image: url(../images/stripe-lavendar.png);
+.stripe-dark {
+    background-image: url(../images/stripe_dark.png);
 }
 
-.stripe2 {
-    background-image: url(../images/stripe-2.png);
-}
-
-.stripe3 {
-    background-image: url(../images/stripe3.png);
-}
-
-.stripe4 {
-    background-image: url(../images/stripe4.png);
-}
-
-.stripe5 {
-    background-image: url(../images/stripe5.png);
+.stripe-light {
+    background-image: url(../images/stripe-light.png);
 }
 
 .border-top {
