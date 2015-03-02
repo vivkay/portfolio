@@ -145,6 +145,11 @@ sub {
   font-style: italic;
 }
 
+
+.push-all {
+    margin: 3rem;
+}
+
 .push-left, .push-l {
     margin-left: 1.5rem;
 }
@@ -184,6 +189,10 @@ sub {
 
 .push-top {
     margin-top: 3rem;
+}
+
+.push-top-2 {
+    margin-top: 1.5rem;
 }
 
 .pad-top, .pad-t {

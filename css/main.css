@@ -168,7 +168,6 @@ a {
     color: #383A4C;
     background-color: white; 
     text-align: center;
-    margin-bottom: 0;
 }
 
 .button-dark-outline:hover{
@@ -416,4 +415,64 @@ a {
 
 .border-top {
     border-top: 1px solid #CDCDE0;
+}
+
+.tagline {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.appear {
+    opacity: 0;
+    -webkit-animation: appear 2.5s linear forwards;
+    animation: appear 2.5s linear forwards;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;  
+}
+
+@-webkit-keyframes appear {
+    
+    0% {
+        opacity: 0;
+        -webkit-transform: rotate(10);
+    }
+    
+    100% {
+        opacity: 100;
+    }   
+}
+
+@keyframes appear {
+    
+    0% {
+        opacity: 0;
+        transform: rotate(10);
+    }
+    
+    100% {
+        opacity: 100;
+    }   
+}
+
+.media-wrap {
+    width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+  
+    
+}
+	
+@media only screen and (min-width: 38em) {
+
+    
+}
+	
+@media only screen and (min-width: 60em) {
+
+    .media-wrap {
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
