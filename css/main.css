@@ -52,6 +52,7 @@ body {
 .name {
     width: 85%;
     margin: 0 auto;
+    display: block;
 }
 
 .icon-portfolio {
