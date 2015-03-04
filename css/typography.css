@@ -7,6 +7,14 @@ html {
   font: normal 100%/1.5 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, 
+.brand-family {
+font-family: "Montserrat", sans-serif;
+}
+
+.default-family {
+  font-family: "Montserrat", sans-serif;
+}
 
 @media only screen and (min-width: 60em) {
 
