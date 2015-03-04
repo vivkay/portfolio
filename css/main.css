@@ -428,7 +428,6 @@ a {
     
     0% {
         opacity: 0;
-        -webkit-transform: rotate(10);
     }
     
     100% {
@@ -440,7 +439,6 @@ a {
     
     0% {
         opacity: 0;
-        transform: rotate(10);
     }
     
     100% {
