@@ -313,8 +313,8 @@ a {
 }
 
 .icons {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .icons:hover {
@@ -477,6 +477,12 @@ a {
     
     .push-flex {
         margin-bottom: 1.5rem;
+    }
+    
+    
+    .icons {
+        width: 80px;
+        height: 80px;
     }
 }
 	
