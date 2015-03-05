@@ -112,7 +112,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 2em;
+    padding: .5em;
 }
 
 .skip-links {
@@ -389,6 +389,7 @@ a {
 .tagline {
     margin-top: 2em;
     margin-bottom: 2em;
+    font-size: .75rem;
 }
 
 .appear {
@@ -421,12 +422,26 @@ a {
     }   
 }
 
+.island-shift {
+    padding: 1.000rem;
+    margin-top: 2rem;
+}
+
 .media-wrap {
     width: 100%;
 }
 
 .width-100 {
     width: 100%;
+}
+
+.pad-flex {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+.push-flex {
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -436,7 +451,33 @@ a {
 	
 @media only screen and (min-width: 38em) {
 
+    .billboard {
+        overflow: hidden;
+        background-image: url(../images/minigolf-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 2em;
+}
     
+    .island-shift {
+        padding: 3.0000rem;
+    }
+    
+    .tagline {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: 1rem;
+}
+    
+    .pad-flex {
+        padding-right: 5.0000rem;
+        padding-left: 5.0000rem;
+    }
+    
+    .push-flex {
+        margin-bottom: 1.5rem;
+    }
 }
 	
 @media only screen and (min-width: 60em) {
