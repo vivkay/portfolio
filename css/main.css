@@ -157,6 +157,27 @@ body {
     color: white;
 }
 
+.button-outline-small {
+    border: 2px solid white;
+    border-radius: 4px 4px 4px 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none; 
+    font-weight:lighter; 
+    color: #a19f9f;
+    background-color: transparent; 
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+}
+
+.button-outline-small:hover{
+    cursor: pointer;
+    border:2px solid white; 
+    background-color: transparent;
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -257,8 +278,6 @@ a {
     margin: 0;
 }
 
-
-
 .portfolio-text {
     position: absolute;
     bottom: 10%;
@@ -292,70 +311,6 @@ a {
 .block {
     display: block;
 }
-
-
-
-/*
-.portfolio-text:hover{
-    opacity: 1;
-    -webkit-animation: disappear 1s ease-in-out;
-    animation: disappear 1s ease-in-out;
-}
-
-@-webkit-keyframes disappear {
-    
-    20% {
-        opacity: 1;
-        -webkit-transform: rotate(10);
-    }
-    
-    100% {
-        opacity: 0;
-    }   
-}
-
-@keyframes disappear {
-    
-    20% {
-        opacity: 1;
-    }
-    
-    100% {
-        opacity: 0;
-    }   
-}
-
-
-.appear {
-    opacity: 0;
-    -webkit-animation: appear 1s ease-in-out;
-    animation: appear 2s ease-in-out;
-    -webkit-animation-delay: .5s;
-    animation-delay:.5s;  
-}
-
-@-webkit-keyframes appear {
-    
-    20% {
-        opacity: 0;
-    }
-    
-    100% {
-        opacity: 100;
-    }   
-}
-
-@keyframes appear {
-    
-    20% {
-        opacity: 0;
-    }
-    
-    100% {
-        opacity: 1;
-    }   
-}
-*/
 
 .icons {
     width: 80px;
